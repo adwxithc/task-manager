@@ -20,7 +20,8 @@ interface IColumnProps {
 
 function NotionKanban() {
   return (
-    <div className="h-screen w-full bg-neutral-900 text-neutral-50 ">
+    <div className="h-screen w-full bg-neutral-950 text-neutral-50 ">
+      <div className="h-16"></div>
       <Board />
 
     </div>
